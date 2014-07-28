@@ -38,9 +38,9 @@ DZE_ConfigTrader = true;
  
 4. Open description.ext and add
 
- #include "CfgServerTrader\cfgServerTrader.hpp"
+      #include "CfgServerTrader\cfgServerTrader.hpp"
 
-5. Done, :lol:
+5. Done
  
 Extended tutorial:
 
@@ -82,7 +82,7 @@ Step 4
 Open Description.Ext, again using a GOOD text editor :lol:
 Before ALL the other lines, put
 
- #include "CfgServerTrader\cfgServerTrader.hpp"
+      #include "CfgServerTrader\cfgServerTrader.hpp"
 
 Done!! Now I am going to explain in-depth how it works. 
  
