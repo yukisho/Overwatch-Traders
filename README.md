@@ -133,7 +133,7 @@ Example for our AS50 ammo;
 
 You can use all kind of items, I suggest ItemGoldBar,ItemGoldBar10oz,ItemBriefcase100oz but ya know, you could use ItemMap as economy
 
-To load these files you need to add the following to cfgServerTrader.hpp
+To load these files you need to add the following to CfgServerTrader\cfgServerTrader.hpp
 
 	#include "Category\OverwatchACR.hpp"
 	#include "Category\OverwatchAK.hpp"
