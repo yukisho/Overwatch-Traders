@@ -40,7 +40,24 @@ Easier tutorial for those who are more confortable with scripting:
 
       #include "CfgServerTrader\cfgServerTrader.hpp"
 
-5. Done
+5. After downloading, unpack the zip file.
+Copy over all contents to CfgServerTrader\Category\
+You can edit the files to your liking.
+To load these files you need to add the following to CfgServerTrader\cfgServerTrader.hpp
+
+	#include "Category\OverwatchACR.hpp"
+	#include "Category\OverwatchAK.hpp"
+	#include "Category\OverwatchG3.hpp"
+	#include "Category\OverwatchAmmo.hpp"
+	#include "Category\Overwatch417.hpp"
+	#include "Category\Overwatch416.hpp"
+	#include "Category\OverwatchScar.hpp"
+	#include "Category\OverwatchPistols.hpp"
+	#include "Category\OverwatchSniper.hpp"
+	#include "Category\OverwatchMasada.hpp"
+	#include "Category\OverwatchLMG.hpp"
+	
+6. Done
  
 Extended tutorial:
 
@@ -132,20 +149,3 @@ Example for our AS50 ammo;
     sell[]= {1,"ItemGoldBar10oz"};
 
 You can use all kind of items, I suggest ItemGoldBar,ItemGoldBar10oz,ItemBriefcase100oz but ya know, you could use ItemMap as economy
-
-After downloading, unpack the zip file.
-Copy over all contents to CfgServerTrader\Category\
-You can edit the files to your liking.
-To load these files you need to add the following to CfgServerTrader\cfgServerTrader.hpp
-
-	#include "Category\OverwatchACR.hpp"
-	#include "Category\OverwatchAK.hpp"
-	#include "Category\OverwatchG3.hpp"
-	#include "Category\OverwatchAmmo.hpp"
-	#include "Category\Overwatch417.hpp"
-	#include "Category\Overwatch416.hpp"
-	#include "Category\OverwatchScar.hpp"
-	#include "Category\OverwatchPistols.hpp"
-	#include "Category\OverwatchSniper.hpp"
-	#include "Category\OverwatchMasada.hpp"
-	#include "Category\OverwatchLMG.hpp"
