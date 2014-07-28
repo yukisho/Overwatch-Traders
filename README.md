@@ -46,15 +46,25 @@ You can edit the files to your liking.
 To load these files you need to add the following to CfgServerTrader\cfgServerTrader.hpp
 
       #include "Category\OverwatchACR.hpp"
+      
       #include "Category\OverwatchAK.hpp"
+      
       #include "Category\OverwatchG3.hpp"
+      
       #include "Category\OverwatchAmmo.hpp"
+      
       #include "Category\Overwatch417.hpp"
+      
       #include "Category\Overwatch416.hpp"
+      
       #include "Category\OverwatchScar.hpp"
+      
       #include "Category\OverwatchPistols.hpp"
+      
       #include "Category\OverwatchSniper.hpp"
+      
       #include "Category\OverwatchMasada.hpp"
+      
       #include "Category\OverwatchLMG.hpp"
 	
 6. Done
