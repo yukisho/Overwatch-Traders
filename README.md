@@ -43,7 +43,7 @@ Easier tutorial for those who are more confortable with scripting:
 5. After downloading, unpack the zip file.
 Copy over all contents to CfgServerTrader\Category\
 You can edit the files to your liking.
-To load these files you need to add the following to CfgServerTrader\cfgServerTrader.hpp
+To load these files you need to add the following to the bottom of CfgServerTrader\cfgServerTrader.hpp right after 	#include "Category\NeutralWholesale.hpp"
 
       #include "Category\OverwatchACR.hpp"
       
