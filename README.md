@@ -34,7 +34,7 @@ Easier tutorial for those who are more confortable with scripting:
 
 3. Add the following to your init.sqf, or set it to true if you already added that variable but set to false.
 
-    DZE_ConfigTrader = true;
+      DZE_ConfigTrader = true;
  
 4. Open description.ext and add
 
