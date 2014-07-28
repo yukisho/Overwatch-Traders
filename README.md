@@ -32,15 +32,13 @@ Easier tutorial for those who are more confortable with scripting:
 
 2. Copy the "CfgTraderConfig" folder in your mission pbo
 
-3. Add
+3. Add the following to your init.sqf, or set it to true if you already added that variable but set to false.
 
 DZE_ConfigTrader = true;
-
-to your init.sqf, or set it to true if you already added that variable but set to false.
  
 4. Open description.ext and add
 
- #include "CfgServerTrader\cfgServerTrader.hpp"
+#include "CfgServerTrader\cfgServerTrader.hpp"
 
 5. Done, :lol:
  
@@ -50,10 +48,11 @@ Step 1 (Assuming you already installed PBO Manager.)
 Find your Arma 2 Operation Arrowhead folder, where your Epoch Client files are located.
 For steam users it should be:
 
- C:\Program Files (x86)\Steam\SteamApps\common\Arma 2 Operation Arrowhead\@DayZ_Epoch
+C:\Program Files (x86)\Steam\SteamApps\common\Arma 2 Operation Arrowhead\@DayZ_Epoch
 Once you found that folder, go into the 'Addons' folder located in @DayZ_Epoch.
 You should find a file called "dayz_epoch_b" with .pbo as extention.
 Right clic on it, you should see a 'PBO Manager' option. Get on that option, and select
+
 "Extract to dayz_epoch_b\".
  
 Step 2
@@ -67,7 +66,7 @@ Under it, you should see some Epoch Variables as DZE_requireplot, DZE_vehicleAmm
 First of all, be sure to check if you don't already have that Epoch Variable but set to false.
 If not, write
 
- DZE_ConfigTrader = true;  
+DZE_ConfigTrader = true;  
 
 under "// DayZ Epoch config".
 If you already have 
