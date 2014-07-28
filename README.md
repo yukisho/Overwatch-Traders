@@ -19,11 +19,11 @@ Explanation of how the system works.
 Using external files, we are going to modify the traders using their own prices, own configs.
 Example:
 
-type = "trade_weapons";
-buy[] = {1,"ItemGoldBar10oz"};
-sell[] = {5,"ItemGoldBar"};
-display = "DMR";
-qty[] = 1;
+type = "trade_weapons"; 
+buy[] = {1,"ItemGoldBar10oz"}; 
+sell[] = {5,"ItemGoldBar"}; 
+display = "DMR"; 
+qty[] = 1; 
 
  
 Easier tutorial for those who are more confortable with scripting:
