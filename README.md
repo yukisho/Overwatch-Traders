@@ -132,3 +132,17 @@ Example for our AS50 ammo;
     sell[]= {1,"ItemGoldBar10oz"};
 
 You can use all kind of items, I suggest ItemGoldBar,ItemGoldBar10oz,ItemBriefcase100oz but ya know, you could use ItemMap as economy
+
+To load these files you need to add the following to cfgServerTrader.hpp
+
+	#include "Category\OverwatchACR.hpp"
+	#include "Category\OverwatchAK.hpp"
+	#include "Category\OverwatchG3.hpp"
+	#include "Category\OverwatchAmmo.hpp"
+	#include "Category\Overwatch417.hpp"
+	#include "Category\Overwatch416.hpp"
+	#include "Category\OverwatchScar.hpp"
+	#include "Category\OverwatchPistols.hpp"
+	#include "Category\OverwatchSniper.hpp"
+	#include "Category\OverwatchMasada.hpp"
+	#include "Category\OverwatchLMG.hpp"
