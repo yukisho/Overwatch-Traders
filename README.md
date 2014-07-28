@@ -34,11 +34,11 @@ Easier tutorial for those who are more confortable with scripting:
 
 3. Add the following to your init.sqf, or set it to true if you already added that variable but set to false.
 
-DZE_ConfigTrader = true;
+    DZE_ConfigTrader = true;
  
 4. Open description.ext and add
 
-      #include "CfgServerTrader\cfgServerTrader.hpp"
+    #include "CfgServerTrader\cfgServerTrader.hpp"
 
 5. Done
  
@@ -66,23 +66,23 @@ Under it, you should see some Epoch Variables as DZE_requireplot, DZE_vehicleAmm
 First of all, be sure to check if you don't already have that Epoch Variable but set to false.
 If not, write
 
-DZE_ConfigTrader = true;  
+    DZE_ConfigTrader = true;  
 
 under "// DayZ Epoch config".
 If you already have 
 
-DZE_ConfigTrader = false;
+    DZE_ConfigTrader = false;
 
- put it to true so it looks like 
+put it to true so it looks like 
 
-DZE_ConfigTrader = true;
+    DZE_ConfigTrader = true;
 
 
 Step 4
 Open Description.Ext, again using a GOOD text editor :lol:
 Before ALL the other lines, put
 
-      #include "CfgServerTrader\cfgServerTrader.hpp"
+    #include "CfgServerTrader\cfgServerTrader.hpp"
 
 Done!! Now I am going to explain in-depth how it works. 
  
@@ -93,7 +93,7 @@ Lets explain how the system works but more in depth:
 I will use "BanditAmmunition.hpp" as example.
 First of all, open the file of your choice (in our case "BanditAmmunition.hpp")
 
-class Category_577 {
+    class Category_577 {
 
 As you can see, this hpp file is the config of the Ammunition that the Bandit Trader is selling with as TID 577.
  
@@ -101,25 +101,25 @@ As you can see, this hpp file is the config of the Ammunition that the Bandit Tr
 After that it is really easy to use;
 in case you want to sell "5Rnd_127x99_AS50" (as50 ammo) you will have to create a new class, under
 
-class Category_577 {
+    class Category_577 {
 
 so it will look like:
 
-class Category_577 {
-       class 5Rnd_127x99_AS50 {
+    class Category_577 {
+        class 5Rnd_127x99_AS50 {
 
 After creating a new class under the Category_TID you can add kind of 'variables' to it;
 
-type =
-buy[] =
-sell[] =
+    type =
+    buy[] =
+    sell[] =
 
 As type, you will have to put
 
-type = "trade_items";
-type = "trade_any_vehicle";
-type = "trade_backpacks";
-type = "trade_weapons";
+    type = "trade_items";
+    type = "trade_any_vehicle";
+    type = "trade_backpacks";
+    type = "trade_weapons";
 
 depending on if you are selling/buying a vehicle, an item, a backpack or a weapon.
  
@@ -128,7 +128,7 @@ These have to be in this format:
 HowMuchX,"X"
 Example for our AS50 ammo;
 
-buy[] = {1,"ItemGoldBar10oz"};
-sell[]= {1,"ItemGoldBar10oz"};
+    buy[] = {1,"ItemGoldBar10oz"};
+    sell[]= {1,"ItemGoldBar10oz"};
 
 You can use all kind of items, I suggest ItemGoldBar,ItemGoldBar10oz,ItemBriefcase100oz but ya know, you could use ItemMap as economy
