@@ -2,47 +2,47 @@ class Category_1006 {
 	class SCAR_H_LNG_Sniper {
 	type = "trade_weapons";
 	buy[] = {6,"ItemGoldBar10oz"};
-	sell[] = {3,"ItemGoldBar10oz"};477
+	sell[] = {3,"ItemGoldBar10oz"};
 	};
 	class vil_SR25 {
 	type = "trade_weapons";
 	buy[] = {6,"ItemGoldBar10oz"};
-	sell[] = {3,"ItemGoldBar10oz"};477
+	sell[] = {3,"ItemGoldBar10oz"};
 	};
 	class vil_SR25SD {
 	type = "trade_weapons";
 	buy[] = {7,"ItemGoldBar10oz"};
-	sell[] = {3,"ItemGoldBar10oz"};477
+	sell[] = {3,"ItemGoldBar10oz"};
 	};
 	class vil_SV_98 {
 	type = "trade_weapons";
 	buy[] = {1,"ItemBriefcase100oz"};
-	sell[] = {1,"ItemGoldBar10oz"};477
+	sell[] = {1,"ItemGoldBar10oz"};
 	};
 	class vil_SV_98_69 {
 	type = "trade_weapons";
 	buy[] = {1,"ItemBriefcase100oz"};
-	sell[] = {1,"ItemGoldBar10oz"};477
+	sell[] = {1,"ItemGoldBar10oz"};
 	};
 	class vil_SV_98_SD {
 	type = "trade_weapons";
 	buy[] = {2,"ItemBriefcase100oz"};
-	sell[] = {1,"ItemGoldBar10oz"};477
+	sell[] = {1,"ItemGoldBar10oz"};
 	};
 	class RH_sc2shd {
 	type = "trade_weapons";
 	buy[] = {1,"ItemBriefcase100oz"};
-	sell[] = {4,"ItemGoldBar10oz"};477
+	sell[] = {4,"ItemGoldBar10oz"};
 	};
 	class RH_sc2sp {
 	type = "trade_weapons";
 	buy[] = {1,"ItemBriefcase100oz"};
-	sell[] = {5,"ItemGoldBar10oz"};477
+	sell[] = {5,"ItemGoldBar10oz"};
 	};
 	class vil_G3sg1b {
 	type = "trade_weapons";
 	buy[] = {1,"ItemBriefcase100oz"};
-	sell[] = {9,"ItemGoldBar10oz"};477
+	sell[] = {9,"ItemGoldBar10oz"};
 	};
 	class DMR_DZ {
 	type = "trade_weapons";
