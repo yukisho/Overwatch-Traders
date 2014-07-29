@@ -24,7 +24,7 @@ class Category_1011 {
 	buy[] = {1,"ItemGoldBar10oz"};
 	sell[] = {8,"ItemGoldBar"};
 	};
-	class RH_hk416glacog",3], 5021, {
+	class RH_hk416glacog {
 	type = "trade_weapons";
 	buy[] = {2,"ItemGoldBar10oz"};
 	sell[] = {1,"ItemGoldBar10oz"};
