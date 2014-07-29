@@ -129,4 +129,4 @@ class Category_1017 {
 	buy[] = {5,"ItemGoldBar10oz"};
 	sell[] = {2,"ItemGoldBar10oz"};
 	};
-]:
+};
