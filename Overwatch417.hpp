@@ -79,9 +79,4 @@ class Category_1001 {
 	buy[] = {4,"ItemGoldBar10oz"};
 	sell[] = {2,"ItemGoldBar10oz"};
 	};
-	class RH_hk417sgleotech {
-	type = "trade_weapons";
-	buy[] = {4,"ItemGoldBar10oz"};
-	sell[] = {2,"ItemGoldBar10oz"};
-	};
 };
