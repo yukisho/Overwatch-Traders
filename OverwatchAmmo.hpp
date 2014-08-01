@@ -24,26 +24,6 @@ class Category_1016 {
 	buy[] = {9,"ItemGoldBar"};
 	sell[] = {4,"ItemGoldBar"};
 	};
-	class FHQ_rem_5Rnd_300Win_XM2010_NT {
-	type = "trade_items";
-	buy[] = {8,"ItemGoldBar"};
-	sell[] = {3,"ItemGoldBar"};
-	};
-	class FHQ_rem_5Rnd_300Win_XM2010_NT_SD {
-	type = "trade_items";
-	buy[] = {9,"ItemGoldBar"};
-	sell[] = {4,"ItemGoldBar"};
-	};
-	class FHQ_rem_7Rnd_338Lapua_MSR_NT {
-	type = "trade_items";
-	buy[] = {8,"ItemGoldBar"};
-	sell[] = {3,"ItemGoldBar"};
-	};
-	class FHQ_rem_7Rnd_338Lapua_MSR_NT_SD {
-	type = "trade_items";
-	buy[] = {9,"ItemGoldBar"};
-	sell[] = {4,"ItemGoldBar"};
-	};
 	class vil_bhp_mag {
 	type = "trade_items";
 	buy[] = {5,"ItemGoldBar"};
@@ -63,11 +43,6 @@ class Category_1016 {
 	type = "trade_items";
 	buy[] = {5,"ItemGoldBar10oz"};
 	sell[] = {2,"ItemGoldBar"};
-	};
-	class FHQ_rem_7Rnd_338Lapua_MSR_NT {
-	type = "trade_items";
-	buy[] = {1,"ItemGoldBar10oz"};
-	sell[] = {4,"ItemGoldBar"};
 	};
 	class vil_10Rnd_762x54_SV {
 	type = "trade_items";
@@ -229,7 +204,7 @@ class Category_1016 {
 	buy[] = {9,"ItemGoldBar"};
 	sell[] = {3,"ItemGoldBar"};
 	};
-	class 2000Rnd_762x51_M134{
+	class 2000Rnd_762x51_M134 {
 	type = "trade_items";
 	buy[] = {9,"ItemGoldBar10oz"};
 	sell[] = {2,"ItemGoldBar10oz"};
