@@ -24,11 +24,6 @@ class Category_1016 {
 	buy[] = {9,"ItemGoldBar"};
 	sell[] = {4,"ItemGoldBar"};
 	};
-	class USSR_5Rnd_408 {
-	type = "trade_items";
-	buy[] = {2,"ItemGoldBar10oz"};
-	sell[] = {8,"ItemGoldBar"};
-	};
 	class FHQ_rem_5Rnd_300Win_XM2010_NT {
 	type = "trade_items";
 	buy[] = {8,"ItemGoldBar"};
